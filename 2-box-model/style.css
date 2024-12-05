@@ -10,7 +10,7 @@ body{
 }
 
 .card{
-    background-color: white;
+    background-color: white!important;
     /*margin-top: 100px;*/
     margin: 100px auto;
     width: 430px;
