@@ -72,7 +72,7 @@ header{
     position: absolute;
 }
 .img-pizza{
-    filter: blur(1.5px);
+    filter: blur(.5px); 
 }
 
 .img-tomato{
@@ -81,10 +81,10 @@ header{
     top: 0;
 }
 .img-hoja{
-    width: 40%;
+    width: 20%;
     left: 0;
     bottom: 40px;
-    transform: rotate(130deg);
+    transform: rotateY(180deg);
 }
 
 
@@ -100,12 +100,19 @@ header{
     display: flex;
     gap: 10px;
     padding: 20px;
+    align-items: stretch;
+    
+        
 }
 .product-card{
     flex: 1;
     position: relative;
     border-radius: 40px;
     overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    object-fit: cover;
+    
+    
 }
 /* .productos-content div:nth-child(1){
     background-color: rgb(31, 167, 235);
@@ -163,6 +170,7 @@ header{
 }
 .product-card img{
     width: 100%;
+       
 
 }
  
@@ -210,6 +218,15 @@ header{
     .img-pizza, .img-hoja, .img-tomato {
         width: 230px;
     }
+    .img-tomato {
+        margin-right: 10%;
+    }
+
+    .img-hoja {
+        width: 10%;
+        margin-left: 15%;
+    }
+
     /* .productos-content{
         flex-wrap: wrap;
     }
